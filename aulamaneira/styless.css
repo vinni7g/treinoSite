@@ -1,0 +1,111 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    Color: rgb(255, 255, 255);
+    background-color: rgb(204, 204, 204);
+    font-size: 14pt; 
+}
+header{
+    text-align: center;
+
+}
+footer{
+    background-color: black;
+    padding: 20px;
+    border-radius: 5px white;
+}
+footer p{
+    padding: 0px;
+    border-radius: 5px white;
+    text-align: center;
+}
+.primeiroNivel{
+    background-color: black;
+    padding: 35px;
+    font-size: 20pt;
+    border-radius: 5px rgb(0, 0, 0);
+    margin: 0px;
+}
+ul{
+    padding: 0px;
+    list-style-type:none;
+}
+li{
+    display: inline-block;
+    padding: 8px;
+    margin-right: 1px;
+    width: auto;
+    height: auto;
+    background-color: black;
+    box-sizing:content-box;
+    border-radius: 5px;
+   
+}
+article{
+    padding: 20px;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+    text-align: center justify;
+    border: solid 1px rgb(255, 255, 255);
+    transition: transform 0.3s ease;
+    
+}
+.index{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 0px;
+    opacity: 0.5;
+}
+  
+main{
+    margin: auto auto auto auto;
+    max-width: 850px;
+    padding: 20px;  
+    width: 700px; 
+}
+article:hover{
+    background: rgb(239, 245, 253);
+    transform: scale(1.05);
+}
+.nav-link{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+li:hover{
+    background-color: rgb(105, 103, 103);
+}
+
+.sobre{
+    border: solid 1px rgb(255,255,255);
+    background-color: rgb(255,255,255);
+    color:rgb(0, 0, 0);
+    padding: 0 auto;
+    margin: 50px auto;
+    text-align: justify;
+    font-size: 12pt;
+}
+
+.nqa{
+    text-align: center;
+    margin: 0 auto;
+    padding: auto;
+    font-style: italic;
+}
+
+.contato{
+    border: solid 1px rgb(240,240,240);
+    background-color: rgb(240,240,240);
+    color:rgb(0, 0, 0);
+    margin: auto auto;
+    text-align: justify;
+    font-size: 10pt;
+    margin: 50px auto;
+}
+fieldset{
+    margin: 0 auto;
+    width: 600px;
+}
+
+.fotinhaBacana{
+    width: 60%;
+}
